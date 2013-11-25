@@ -1,5 +1,5 @@
 module Mongoid
   module EncryptedFields
-      VERSION = '1.2.2'
+      VERSION = '4.0.0'
   end
 end

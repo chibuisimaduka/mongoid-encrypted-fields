@@ -1,5 +1,9 @@
 # Revision history
 
+## 4.0.0
+* Added support for Mongoid 4.0
+* Bump version to match with Mongoid
+
 ## 1.2.2
 * Accepted [pull request](https://github.com/KoanHealth/mongoid-encrypted-fields/pull/10) to support aliased fields with the uniqueness validator (@johnnyshields)
 
