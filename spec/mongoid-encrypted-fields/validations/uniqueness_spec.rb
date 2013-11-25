@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Mongoid::Validations::UniquenessValidator do
+describe Mongoid::Validatable::UniquenessValidator do
 
   before(:all) do
     Mongoid::EncryptedFields.cipher = GibberishCipher.new('my test password', 'weaksalt')
@@ -8,7 +8,6 @@ describe Mongoid::Validations::UniquenessValidator do
 
   before(:each) do
     Mongoid.purge!
-    Mongoid::IdentityMap.clear
   end
 
   describe "#valid?" do
